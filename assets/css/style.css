@@ -16,13 +16,6 @@ body {
   background: transparent;
 }
 
-@media (max-width: 991px) {
-  .navbar ul {
-      display: flex;
-  }
-  
-  }
-
 body::before {
   content: "";
   position: fixed;
@@ -1176,3 +1169,8 @@ img:hover {
   color: #fff;
 }
 
+@media (max-width: 991px) {
+.navbar ul {
+    display: flex;
+}
+}
